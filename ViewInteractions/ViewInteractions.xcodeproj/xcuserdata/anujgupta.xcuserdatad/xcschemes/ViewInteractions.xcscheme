@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D77F02351E53436700F55A9F"
-               BuildableName = "First.app"
-               BlueprintName = "First"
-               ReferencedContainer = "container:First.xcodeproj">
+               BlueprintIdentifier = "66E56E501E59C997008AF2EE"
+               BuildableName = "ViewInteractions.app"
+               BlueprintName = "ViewInteractions"
+               ReferencedContainer = "container:ViewInteractions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D77F02491E53436800F55A9F"
-               BuildableName = "FirstTests.xctest"
-               BlueprintName = "FirstTests"
-               ReferencedContainer = "container:First.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D77F02541E53436800F55A9F"
-               BuildableName = "FirstUITests.xctest"
-               BlueprintName = "FirstUITests"
-               ReferencedContainer = "container:First.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D77F02351E53436700F55A9F"
-            BuildableName = "First.app"
-            BlueprintName = "First"
-            ReferencedContainer = "container:First.xcodeproj">
+            BlueprintIdentifier = "66E56E501E59C997008AF2EE"
+            BuildableName = "ViewInteractions.app"
+            BlueprintName = "ViewInteractions"
+            ReferencedContainer = "container:ViewInteractions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D77F02351E53436700F55A9F"
-            BuildableName = "First.app"
-            BlueprintName = "First"
-            ReferencedContainer = "container:First.xcodeproj">
+            BlueprintIdentifier = "66E56E501E59C997008AF2EE"
+            BuildableName = "ViewInteractions.app"
+            BlueprintName = "ViewInteractions"
+            ReferencedContainer = "container:ViewInteractions.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D77F02351E53436700F55A9F"
-            BuildableName = "First.app"
-            BlueprintName = "First"
-            ReferencedContainer = "container:First.xcodeproj">
+            BlueprintIdentifier = "66E56E501E59C997008AF2EE"
+            BuildableName = "ViewInteractions.app"
+            BlueprintName = "ViewInteractions"
+            ReferencedContainer = "container:ViewInteractions.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
