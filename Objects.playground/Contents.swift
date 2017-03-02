@@ -11,6 +11,10 @@ class Ghost{
     func kill() {
         isAlive = false
     }
+    
+    func isStrong() -> Bool {
+        return true
+    }
 }
 
 var ghost = Ghost()
@@ -18,3 +22,5 @@ print(ghost.isAlive)
 print(ghost.strength)
 ghost.kill()
 print(ghost.isAlive)
+var strong = ghost.isStrong()
+print(strong)
