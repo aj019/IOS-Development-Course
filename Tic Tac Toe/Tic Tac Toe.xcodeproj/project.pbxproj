@@ -12,6 +12,9 @@
 		66B6D9781E7BF24400610219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B6D9761E7BF24400610219 /* Main.storyboard */; };
 		66B6D97A1E7BF24400610219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B6D9791E7BF24400610219 /* Assets.xcassets */; };
 		66B6D97D1E7BF24400610219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B6D97B1E7BF24400610219 /* LaunchScreen.storyboard */; };
+		66B6D9871E7BF2E500610219 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 66B6D9841E7BF2E500610219 /* board.png */; };
+		66B6D9881E7BF2E500610219 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 66B6D9851E7BF2E500610219 /* cross.png */; };
+		66B6D9891E7BF2E500610219 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 66B6D9861E7BF2E500610219 /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		66B6D9791E7BF24400610219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66B6D97C1E7BF24400610219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66B6D97E1E7BF24400610219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B6D9841E7BF2E500610219 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		66B6D9851E7BF2E500610219 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		66B6D9861E7BF2E500610219 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				66B6D9721E7BF24400610219 /* AppDelegate.swift */,
 				66B6D9741E7BF24400610219 /* ViewController.swift */,
 				66B6D9761E7BF24400610219 /* Main.storyboard */,
+				66B6D9841E7BF2E500610219 /* board.png */,
+				66B6D9851E7BF2E500610219 /* cross.png */,
+				66B6D9861E7BF2E500610219 /* nought.png */,
 				66B6D9791E7BF24400610219 /* Assets.xcassets */,
 				66B6D97B1E7BF24400610219 /* LaunchScreen.storyboard */,
 				66B6D97E1E7BF24400610219 /* Info.plist */,
@@ -123,6 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B6D9881E7BF2E500610219 /* cross.png in Resources */,
+				66B6D9871E7BF2E500610219 /* board.png in Resources */,
+				66B6D9891E7BF2E500610219 /* nought.png in Resources */,
 				66B6D97D1E7BF24400610219 /* LaunchScreen.storyboard in Resources */,
 				66B6D97A1E7BF24400610219 /* Assets.xcassets in Resources */,
 				66B6D9781E7BF24400610219 /* Main.storyboard in Resources */,
