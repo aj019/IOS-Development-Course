@@ -1,0 +1,20 @@
+{
+    "people": {
+        "person1":{
+            "Name": "Karan",
+            "Age" : 21
+        },
+
+        "person2":{
+            "Name": "Anuj",
+            "Age" : 25
+        },
+
+        "person3":{
+            "Name": "Rohit",
+            "Age" : 32
+        }
+
+    }
+    
+}
