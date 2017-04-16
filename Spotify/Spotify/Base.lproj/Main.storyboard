@@ -19,9 +19,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="ZAA-M6-EM0">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="NCL-p1-u7f" id="kUE-53-If3"/>
+                            </connections>
+                        </searchBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="75" id="QbM-Vk-pHc">
-                                <rect key="frame" x="0.0" y="28" width="320" height="75"/>
+                                <rect key="frame" x="0.0" y="72" width="320" height="75"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QbM-Vk-pHc" id="cRO-Kd-vW9">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="74.5"/>
@@ -61,6 +69,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="baz-qY-x4O"/>
+                    <connections>
+                        <outlet property="searchBar" destination="ZAA-M6-EM0" id="TUR-W0-Md3"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5nh-R0-q2u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -107,7 +118,9 @@
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="LFs-D4-Rgh" secondAttribute="height" multiplier="71:15" id="iku-0n-12G"/>
                                             </constraints>
-                                            <state key="normal" title="Button"/>
+                                            <state key="normal" title="Button">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
                                             <connections>
                                                 <action selector="pausPlay:" destination="wuL-bl-FPc" eventType="touchUpInside" id="UhL-Tq-hlJ"/>
                                             </connections>

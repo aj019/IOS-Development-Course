@@ -18,17 +18,31 @@ struct post {
     let previewURL :String!
 }
 
-class ViewController: UITableViewController {
+class ViewController: UITableViewController,UISearchBarDelegate {
 
-    var searchUrl = "https://api.spotify.com/v1/search?q=Shawn&type=track"
+    var searchUrl = String()
     typealias JSONStandard = [String : AnyObject]
     var posts = [post]()
+    
+    @IBOutlet weak var searchBar: UISearchBar!
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        
+        let keywords = searchBar.text
+        let finalKeywords = keywords?.replacingOccurrences(of: " ", with: "+")
+        
+        searchUrl = "https://api.spotify.com/v1/search?q=\(finalKeywords!)&type=track"
+        callAlmo(url: searchUrl)
+        self.view.endEditing(true)
+        posts.removeAll()
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     
-        callAlmo(url: searchUrl)
+        
     }
     
     func callAlmo(url : String){

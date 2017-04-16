@@ -69,7 +69,7 @@ class AudioVC: UIViewController {
             playPauseButton.setTitle("Play", for: .normal)
         }else{
                 player.play()
-            playPauseButton.setTitle("Pausek", for: .normal)
+            playPauseButton.setTitle("Pause", for: .normal)
         }
         
     }
