@@ -12,6 +12,7 @@
 		66A4DDED1EA32D9A0047D62F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A4DDEB1EA32D9A0047D62F /* Main.storyboard */; };
 		66A4DDEF1EA32D9A0047D62F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A4DDEE1EA32D9A0047D62F /* Assets.xcassets */; };
 		66A4DDF21EA32D9A0047D62F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A4DDF01EA32D9A0047D62F /* LaunchScreen.storyboard */; };
+		66A4DDFA1EA394F10047D62F /* AudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4DDF91EA394F10047D62F /* AudioVC.swift */; };
 		D8AF2761651BAAB4D0743673 /* Pods_Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEB11B4B1B77701110FC296 /* Pods_Spotify.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		66A4DDEE1EA32D9A0047D62F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66A4DDF11EA32D9A0047D62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66A4DDF31EA32D9A0047D62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A4DDF91EA394F10047D62F /* AudioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVC.swift; sourceTree = "<group>"; };
 		7EEB11B4B1B77701110FC296 /* Pods_Spotify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			children = (
 				66A4DDE71EA32D9A0047D62F /* AppDelegate.swift */,
 				66A4DDE91EA32D9A0047D62F /* ViewController.swift */,
+				66A4DDF91EA394F10047D62F /* AudioVC.swift */,
 				66A4DDEB1EA32D9A0047D62F /* Main.storyboard */,
 				66A4DDEE1EA32D9A0047D62F /* Assets.xcassets */,
 				66A4DDF01EA32D9A0047D62F /* LaunchScreen.storyboard */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66A4DDEA1EA32D9A0047D62F /* ViewController.swift in Sources */,
+				66A4DDFA1EA394F10047D62F /* AudioVC.swift in Sources */,
 				66A4DDE81EA32D9A0047D62F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +382,7 @@
 				66A4DDF81EA32D9A0047D62F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
