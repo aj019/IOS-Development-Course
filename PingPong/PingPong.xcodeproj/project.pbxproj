@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		662DF4C51EAA7BDB006A0E45 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662DF4C41EAA7BDB006A0E45 /* MenuVC.swift */; };
 		663A333E1EA8E77600C0D2FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663A333D1EA8E77600C0D2FC /* AppDelegate.swift */; };
 		663A33401EA8E77600C0D2FC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 663A333F1EA8E77600C0D2FC /* GameScene.sks */; };
 		663A33421EA8E77600C0D2FC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 663A33411EA8E77600C0D2FC /* Actions.sks */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		662DF4C41EAA7BDB006A0E45 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		663A333A1EA8E77600C0D2FC /* PingPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663A333D1EA8E77600C0D2FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		663A333F1EA8E77600C0D2FC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				663A33411EA8E77600C0D2FC /* Actions.sks */,
 				663A33431EA8E77600C0D2FC /* GameScene.swift */,
 				663A33451EA8E77600C0D2FC /* GameViewController.swift */,
+				662DF4C41EAA7BDB006A0E45 /* MenuVC.swift */,
 				663A33471EA8E77600C0D2FC /* Main.storyboard */,
 				663A334A1EA8E77600C0D2FC /* Assets.xcassets */,
 				663A334C1EA8E77600C0D2FC /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				663A33441EA8E77600C0D2FC /* GameScene.swift in Sources */,
+				662DF4C51EAA7BDB006A0E45 /* MenuVC.swift in Sources */,
 				663A33461EA8E77600C0D2FC /* GameViewController.swift in Sources */,
 				663A333E1EA8E77600C0D2FC /* AppDelegate.swift in Sources */,
 			);
@@ -313,6 +317,7 @@
 				663A33541EA8E77600C0D2FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
