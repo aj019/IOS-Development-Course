@@ -16,17 +16,31 @@ struct movie {
     let title : String!
     let year : String!
 }
-class ViewController: UITableViewController {
+class ViewController: UITableViewController , UISearchBarDelegate {
 
     var search_url = "http://www.omdbapi.com/?s=a"
     
     var movies = [movie]()
     
+    @IBOutlet weak var searchBar: UISearchBar!
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        
+        let keywords = searchBar.text
+        let finalKeywords = keywords?.replacingOccurrences(of: " ", with: "+")
+        
+        search_url = "http://www.omdbapi.com/?s=\(finalKeywords!))"
+        callAlmo(url: search_url)
+        self.view.endEditing(true)
+        movies.removeAll()
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        callAlmo(url: search_url)
+        
     }
 
     override func didReceiveMemoryWarning() {
