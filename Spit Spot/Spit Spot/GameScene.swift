@@ -188,7 +188,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
        
         if !gameStarted{
             
-            timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: Selector("Enemies"), userInfo: nil, repeats: true)
+            timer = Timer.scheduledTimer(timeInterval: 0.7, target: self, selector: Selector("Enemies"), userInfo: nil, repeats: true)
             gameStarted = true
             hits = 0
             mainBall.run(SKAction.scale(to: 0.44, duration: 0.2))
